@@ -1,0 +1,25 @@
+<svg viewBox="0 0 900 520" xmlns="http://www.w3.org/2000/svg" width="900" height="520">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0a0400"/><stop offset="100%" stop-color="#140800"/></linearGradient>
+  </defs>
+  <rect width="900" height="520" fill="url(#bg)" rx="10"/>
+  <rect x="1" y="1" width="898" height="518" fill="none" stroke="#2a1000" stroke-width="1.5" rx="10"/>
+  <!-- Title bar -->
+  <rect x="0" y="0" width="900" height="36" fill="#0f0400" rx="10"/>
+  <rect x="0" y="18" width="900" height="18" fill="#0f0400"/>
+  <circle cx="18" cy="18" r="6" fill="#ff5f57"/>
+  <circle cx="36" cy="18" r="6" fill="#febc2e"/>
+  <circle cx="54" cy="18" r="6" fill="#28c840"/>
+  <text x="450" y="23" fill="#5a3020" font-family="monospace" font-size="11" text-anchor="middle">Belegarbeit - Analyse eines Aktienfonds (Altersvorsorge) - MSCI World</text>
+  <!-- Placeholder charts grid -->
+  <rect x="20" y="52" width="420" height="220" fill="#0f0400" stroke="#2a1000" stroke-width="1" rx="6"/>
+  <rect x="460" y="52" width="420" height="220" fill="#0f0400" stroke="#2a1000" stroke-width="1" rx="6"/>
+  <rect x="20" y="285" width="420" height="220" fill="#0f0400" stroke="#2a1000" stroke-width="1" rx="6"/>
+  <rect x="460" y="285" width="420" height="220" fill="#0f0400" stroke="#2a1000" stroke-width="1" rx="6"/>
+  <!-- Chart lines placeholder -->
+  <polyline points="40,220 120,180 200,150 280,100 360,130 420,90" fill="none" stroke="#ff6600" stroke-width="2" opacity="0.6"/>
+  <polyline points="40,220 120,215 200,210 280,205 360,200 420,195" fill="none" stroke="#5a3020" stroke-width="1.5" stroke-dasharray="4,3" opacity="0.5"/>
+  <polyline points="480,260 560,200 640,170 720,120 800,110 860,80" fill="none" stroke="#ff4500" stroke-width="2" opacity="0.6"/>
+  <!-- Center text -->
+  <text x="450" y="490" fill="#3a1800" font-family="'Courier New',monospace" font-size="13" text-anchor="middle" letter-spacing="1.5">📸 SCREENSHOT KOMMT NOCH</text>
+</svg>
