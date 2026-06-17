@@ -2,34 +2,34 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2600&pause=900&color=ff6600&center=true&vCenter=true&width=560&lines=Monte+Carlo+Bootstrap+%C2%B7+10.000+Simulationen;MSCI+World+Historik+1970â2023;PyQt5+%C2%B7+NumPy+%C2%B7+Pandas+%C2%B7+Matplotlib;Belegarbeit+BGY+Sachsen+%C2%B7+Informatiksysteme)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=2600&pause=900&color=ff6600&center=true&vCenter=true&width=560&lines=Monte+Carlo+Bootstrap+%C2%B7+10.000+Simulationen;MSCI+World+Historik+1970%E2%80%932023;PyQt5+%C2%B7+NumPy+%C2%B7+Pandas+%C2%B7+Matplotlib;Belegarbeit+BGY+Sachsen+%C2%B7+Informatiksysteme)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## â¦ Vorschau
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/FeuersteinHD/msci-world-analyzer/main/assets/screenshot.svg" width="100%"/>
-</div>
-
----
-
-## â¦ Features
+## Features
 
 <table>
-  <tr><td>ð <b>Simulation</b></td><td>10.000 Bootstrap-Szenarien auf Basis echter MSCI-World-Renditen (1970â2023)</td></tr>
-  <tr><td>ð <b>8 Charts</b></td><td>Portfolioverlauf, Risikoverlauf, Drawdown, Renditeverteilung, Erfolgswahrscheinlichkeit u.v.m.</td></tr>
-  <tr><td>ð¶ <b>Kostenmodell</b></td><td>TER, OrdergebÃ¼hren (Fix + %), dynamische SparratenerhÃ¶hung</td></tr>
-  <tr><td>ð <b>Realwert</b></td><td>Inflation & Kapitalertragssteuer einkalkuliert</td></tr>
-  <tr><td>ð <b>Szenarien</b></td><td>Mehrere ParametersÃ¤tze gleichzeitig vergleichen</td></tr>
-  <tr><td>ð <b>Export</b></td><td>CSV (deutsches Excel), HTML-Report mit Charts, JSON Speichern/Laden</td></tr>
+  <tr><td>&#x1F4CA; <b>Simulation</b></td><td>10.000 Bootstrap-Szenarien auf Basis echter MSCI-World-Renditen (1970&ndash;2023)</td></tr>
+  <tr><td>&#x1F4C8; <b>8 Charts</b></td><td>Portfolioverlauf, Risikoverlauf, Drawdown, Renditeverteilung, Erfolgswahrscheinlichkeit u.v.m.</td></tr>
+  <tr><td>&#x1F4B6; <b>Kostenmodell</b></td><td>TER, Ordergebühren (Fix + %), dynamische Sparratenerhöhung</td></tr>
+  <tr><td>&#x1F4C9; <b>Realwert</b></td><td>Inflation &amp; Kapitalertragssteuer einkalkuliert</td></tr>
+  <tr><td>&#x1F504; <b>Szenarien</b></td><td>Mehrere Parametersätze gleichzeitig vergleichen</td></tr>
+  <tr><td>&#x1F4C1; <b>Export</b></td><td>CSV (deutsches Excel), HTML-Report mit Charts, JSON Speichern/Laden</td></tr>
 </table>
 
 ---
 
-## â¦ Installation
+## Vorschau
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/FeuersteinHD/msci-world-analyzer/main/assets/screenshot.png" width="100%"/>
+</div>
+
+---
+
+## Installation
 
 ```bash
 git clone https://github.com/FeuersteinHD/msci-world-analyzer.git
@@ -40,19 +40,19 @@ python main.py
 
 ---
 
-## â¦ So funktioniert die Simulation
+## So funktioniert die Simulation
 
 Statt einfacher Durchschnittswerte wird **Bootstrap Resampling** verwendet:
 
-1. Echte MSCI-World-Jahresrenditen (1970â2023) als Datenpool
-2. FÃ¼r jede der 10.000 Simulationen werden Jahre zufÃ¤llig gezogen
-3. Jahresrenditen â monatliche Faktoren (Zinseszins-Formel)
-4. Sparraten, TER und OrdergebÃ¼hren werden Monat fÃ¼r Monat abgezogen
+1. Echte MSCI-World-Jahresrenditen (1970&ndash;2023) als Datenpool
+2. Für jede der 10.000 Simulationen werden Jahre zufällig gezogen
+3. Jahresrenditen werden in monatliche Faktoren umgerechnet (Zinseszins-Formel)
+4. Sparraten, TER und Ordergebühren werden Monat für Monat abgezogen
 5. Ergebnis: 5. / 50. / 95. Perzentil (Worst Case / Median / Best Case)
 
 ---
 
-## â¦ Tech Stack
+## Tech Stack
 
 <div align="center">
 
@@ -66,22 +66,22 @@ Statt einfacher Durchschnittswerte wird **Bootstrap Resampling** verwendet:
 
 ---
 
-## â¦ Projektstruktur
+## Projektstruktur
 
 ```
 msci-world-analyzer/
-âââ main.py          # Einstiegspunkt
-âââ gui.py           # PyQt5 Hauptfenster, Charts, UI-Logik
-âââ simulation.py    # Bootstrap-Simulation & Auswertung
-âââ storage.py       # JSON Speichern/Laden, HTML-Report-Export
-âââ utils.py         # WÃ¤hrungsformat, CSV-Export
-âââ requirements.txt
+├── main.py          # Einstiegspunkt
+├── gui.py           # PyQt5 Hauptfenster, Charts, UI-Logik
+├── simulation.py    # Bootstrap-Simulation & Auswertung
+├── storage.py       # JSON Speichern/Laden, HTML-Report-Export
+├── utils.py         # Währungsformat, CSV-Export
+└── requirements.txt
 ```
 
 ---
 
 <div align="center">
-<sub>Belegarbeit Â· BGY Sachsen Â· 12. Klasse Â· Informatiksysteme</sub>
+<sub>Belegarbeit &middot; BGY Sachsen &middot; 12. Klasse &middot; Informatiksysteme</sub>
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:060200,50:3d0800,100:060200&height=80&section=footer&reversal=true" width="100%"/>
