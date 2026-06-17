@@ -1,0 +1,20 @@
+<svg viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg" width="900" height="220">
+  <defs>
+    <radialGradient id="bg" cx="32%" cy="55%" r="58%"><stop offset="0%" stop-color="#3d0800"/><stop offset="100%" stop-color="#060200"/></radialGradient>
+    <linearGradient id="fire" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"><animate attributeName="stop-color" values="#ff2200;#ff8800;#ffdd00;#ff8800;#ff2200" dur="2.5s" repeatCount="indefinite"/></stop>
+      <stop offset="45%"><animate attributeName="stop-color" values="#ff7700;#ffdd00;#ff2200;#ffdd00;#ff7700" dur="2.5s" repeatCount="indefinite"/></stop>
+      <stop offset="100%"><animate attributeName="stop-color" values="#ffdd00;#ff2200;#ff7700;#ff2200;#ffdd00" dur="2.5s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <filter id="glow" x="-5%" y="-20%" width="110%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="1 0.4 0 0 0.2 0 0 0 0 0 0 0 0 0 0 0 0 0 0.9 0" result="o"/>
+      <feMerge><feMergeNode in="o"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>.a{animation:f .6s ease .2s both}.b{animation:f .8s cubic-bezier(.22,1,.36,1) .45s both}.c{animation:f .5s ease .9s both}@keyframes f{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:translateY(0)}}</style>
+  </defs>
+  <rect width="900" height="220" fill="url(#bg)"/>
+  <text class="a" x="58" y="66" fill="#ff6600" font-family="'Courier New',monospace" font-size="12" font-weight="700" letter-spacing="2.5">â¦ // @FeuersteinHD</text>
+  <text class="b" x="50" y="158" font-family="'Arial Black',Impact,sans-serif" font-size="82" font-weight="900" fill="url(#fire)" filter="url(#glow)">MSCI World</text>
+  <text class="c" x="58" y="196" fill="#7a4a30" font-family="Arial,sans-serif" font-size="14" letter-spacing="0.5">ETF RentabilitÃ¤tsanalyse Â· Python Â· Monte Carlo Â· Bootstrap</text>
+</svg>
