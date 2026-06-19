@@ -80,8 +80,4 @@ msci-world-analyzer/
 
 ---
 
-<div align="center">
-<sub>BGY Sachsen &middot; 12. Klasse &middot; Informatiksysteme</sub>
-</div>
-
 <img src="https://capsule-render.vercel.app/api?type=soft&color=0:060200,50:3d0800,100:060200&height=80&section=footer&reversal=true" width="100%"/>
